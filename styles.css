@@ -1,0 +1,22 @@
+#game-board {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  gap: 10px;
+}
+.card {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.card.hidden {
+  background-color: gray;
+}
+
+body {
+  font-family: 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji',
+    sans-serif;
+}
